@@ -1,19 +1,19 @@
 import React from 'react'
-import Navbar from '../../components/Navbar';
+import Navbar from '../../pages/Navbar';
 import LandingPage from "./LandingPage";
 import Facilities from "./Facilities";
 import FeeTable from "./FeeTable"
 import SneakPeek from './SneakPeak';
-import StatisticsSection from '@/components/Statistics';
-import GoogleMapSection from "@/components/GoogleMapSection"
-import Footer from "@/components/Footer"
+import StatisticsSection from '@/pages/Statistics';
+import GoogleMapSection from "@/pages/GoogleMapSection"
+import Footer from "@/pages/Footer"
 
 
 
 const AcademicsPage = () => {
   return (
     <>
-    <Navbar />
+   <Navbar />
     <LandingPage />
     <Facilities />
     <FeeTable />

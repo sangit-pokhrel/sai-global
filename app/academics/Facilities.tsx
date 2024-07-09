@@ -2,37 +2,33 @@ import React from 'react';
 
 const Facilities = () => {
   return (
-    <div className='bg-facilities h-[50vh] p-10'>
-      <div className="text-center align-center justify-center m-auto flex-wrap facilities-academics max-w-3xl p-5">
-        <h2 className="text-3xl font-bold p-3 tracking-widest">OUR FACILITIES</h2>
-        <div className="flex flex-wrap justify-around px-[4rem] py-3 gap-[2rem]">
-        
-                {/* Left Column */}
-                <ul className="flex-2 text-left list-disc"> {/* Utilizing all space */}
-                  <li>Spacious and well-ventilated classrooms</li>
-                  <li>Well-equipped library</li>
-                  <li>Science lab</li>
-                  <li>Computer lab</li>
-                  <li>Playground</li>
-                  <li>Transportation</li>
-                  <li>Hygienic canteen</li>
-                </ul>
-                {/* Right Column */}
-                <ul className="flex-2 text-left list-disc"> {/* Utilizing all space */}
-                  <li>Spacious and well-ventilated classrooms</li>
-                  <li>Well-equipped library</li>
-                  <li>Science lab</li>
-                  <li>Computer lab</li>
-                  <li>Playground</li>
-                  <li>Transportation</li>
-                  <li>Hygienic canteen</li>
-                </ul>
-              </div>
-          
-     
+    <div className="relative h-[60vh] bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/images/GC2.png')" }}>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
+      <div className="relative bg-white bg-opacity-90 p-10 rounded-lg max-w-4xl mx-auto text-center shadow-lg">
+        <h2 className="text-4xl font-bold mb-8 tracking-widest text-gray-800">OUR FACILITIES</h2>
+        <div className="flex justify-around gap-10">
+          <ul className="text-left text-gray-700 space-y-2">
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Spacious and well-ventilated classrooms</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Well-equipped library</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Science lab</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Computer lab</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Playground</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Transportation</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Hygienic canteen</li>
+          </ul>
+          <ul className="text-left text-gray-700 space-y-2">
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Spacious and well-ventilated classrooms</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Well-equipped library</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Science lab</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Computer lab</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Playground</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Transportation</li>
+            <li className="flex items-center"><span className="mr-2 text-green-600">&#10003;</span>Hygienic canteen</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default Facilities;

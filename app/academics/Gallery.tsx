@@ -2,22 +2,22 @@ import React from 'react';
 
 const JourneyWithUs = () => {
   const images = [
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
+    '/images/eventcard.png',
   ];
 
   return (
